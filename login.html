@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify-Login</title>
+
+<style>
+@import "https:///use.fontawesome.com/releases/v5.5.0/css/all.css";
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        background: url(login_bg.jpg) no-repeat;
+        background-size:cover;
+    }  
+    
+    .loginbox {
+        width: 400px;
+        position: absolute;
+        top: 47%;
+        left: 45%;
+        color: white;
+    }
+
+    .loginbox h1{
+        font-size: 30px;
+        text-decoration: underline tomato;
+        padding-bottom: 15px;
+    }
+
+    .textbox input{
+       padding: 5px;
+       margin-bottom: 13px;
+       width: 250px;
+       border: none;
+       outline: none;
+       background: none;
+       color: white;
+       text-decoration: underline black;
+    }
+
+    .textbox i{
+        padding: 7px;
+        margin-bottom: 13px;
+    }
+
+    .btn{
+        width: 300px;
+        padding: 5px;
+        background: none;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+</style>
+
+</head>
+<body>
+  
+<div class="loginbox">
+  <h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username">
+  </div>
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password">
+  </div>
+  <input type="button" class="btn" value="Login">
+</div>
+
+</body>
+</html>
